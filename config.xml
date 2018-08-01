@@ -12,6 +12,6 @@
   <name>3D Reference</name>
   <description>Target reference for 3D archery</description>
   <author email="a.williams1969@gmail.com" href="">Andy Williams</author>
-  
+  <platform name="android" />
   
 </widget>
