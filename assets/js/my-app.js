@@ -269,32 +269,15 @@ var mainView = app.views.create('.view-main');
 var $$ = Dom7;
 
 
-/*=== Default standalone ===*/
-var myPhotoBrowserStandalone = app.photoBrowser.create({
-    photos: rinehart_targets
-});
-//Open photo browser on click
-$$('.pb-standalone').on('click', function () {
-    myPhotoBrowserStandalone.open();
-});
 
 /*=== Popup ===*/
-var myPhotoBrowserPopup = app.photoBrowser.create({
+var myPhotoBrowserPopupRinehart = app.photoBrowser.create({
     photos: rinehart_targets,
     type: 'popup'
 });
-$$('.pb-popup').on('click', function () {
-    myPhotoBrowserPopup.open();
+$$('.pb-popup-rinehart').on('click', function () {
+    myPhotoBrowserPopupRinehart.open();
 });
 
-/*=== As Page ===*/
-var myPhotoBrowserPage = app.photoBrowser.create({
-    photos: rinehart_targets,
-    type: 'page',
-    backLinkText: 'Back'
-});
-$$('.pb-page').on('click', function () {
-    myPhotoBrowserPage.open();
-});
 
 
