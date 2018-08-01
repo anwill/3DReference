@@ -228,6 +228,306 @@ targets = [
     "Type": "Varmint",
     "Name": "Skunk",
     "Image": "Varmint-Skunk.png"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Game",
+    "Name": "African Impala",
+    "Image": "african-impala.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Cat",
+    "Name": "African Leopard",
+    "Image": "african-leopard.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Cat",
+    "Name": "African Lion",
+    "Image": "african-lion.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Boar",
+    "Name": "African Warthog",
+    "Image": "african-warthog.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Bird",
+    "Name": "Alert Jake",
+    "Image": "alert-jake.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Turkey",
+    "Name": "Alert Turkey",
+    "Image": "alert-turkey.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Reptile",
+    "Name": "Alligator",
+    "Image": "alligator.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Antelope",
+    "Image": "antelope_1.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Armadillo",
+    "Image": "armadillo.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Vamint",
+    "Name": "Beaver",
+    "Image": "beaver.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Bedded Deer",
+    "Image": "bedded-deer.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Sheep",
+    "Name": "Bighorn Sheep",
+    "Image": "bighorn-sheep_2.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Game",
+    "Name": "Bison",
+    "Image": "bison.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Black Bock",
+    "Image": "black-bock.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Blesbock",
+    "Image": "blesbock.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Bobcat",
+    "Image": "bobcat.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Game",
+    "Name": "Caribou",
+    "Image": "caribou.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Chamois",
+    "Image": "chamois.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Predator",
+    "Name": "Coyote",
+    "Image": "coyote.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Game",
+    "Name": "Elk",
+    "Image": "elk.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Predator",
+    "Name": "Fox",
+    "Image": "fox.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Galdiator Buck",
+    "Image": "galdiator-buck.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Turkey",
+    "Name": "Gobbling Turkey",
+    "Image": "gobbling-turkey.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Bear",
+    "Name": "Grizzly Bear",
+    "Image": "grizzly-bear.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Predator",
+    "Name": "Hyena",
+    "Image": "hyena_1.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Ibex",
+    "Image": "ibex.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Boar",
+    "Name": "Javelina",
+    "Image": "javelina.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Boar",
+    "Name": "Javelina",
+    "Image": "javelina_2.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Large Alert Deer",
+    "Image": "large-alert-deer.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Large Deer",
+    "Image": "large-deer.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Large Sneak Deer",
+    "Image": "large-sneak-deer.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Bear",
+    "Name": "Medium Black Bear",
+    "Image": "medium-black-bear.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Bear",
+    "Name": "Medium Brown Bear",
+    "Image": "medium-brown-bear.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Medium Grazing Deer",
+    "Image": "medium-grazing-deer.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Big Cat",
+    "Name": "Mountain Lion",
+    "Image": "mountain-lion.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Mule Deer",
+    "Image": "mule-deer.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Porcupine",
+    "Image": "porcupine.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Deer",
+    "Name": "Pronghorn Antelope",
+    "Image": "pronghorn-antelope.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Rabbit",
+    "Image": "rabbit_2.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Raccoon",
+    "Image": "raccoon.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Raccoon",
+    "Image": "raccoon_2.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Predator",
+    "Name": "Red Fox",
+    "Image": "red-fox.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Bear",
+    "Name": "Standing Bear",
+    "Image": "standing-bear.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Predator",
+    "Name": "Timber Wolf",
+    "Image": "timber-wolf.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Turkey",
+    "Name": "Turkey Strutting",
+    "Image": "turkey-strutting.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Bear",
+    "Name": "Walking Brown Bear",
+    "Image": "walking-brown-bear.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Boar",
+    "Name": "Wild Boar",
+    "Image": "wild-boar.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Boar",
+    "Name": "Wild Boar",
+    "Image": "wild-boar_2.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Predator",
+    "Name": "Wolf",
+    "Image": "wolf.jpg"
+  },
+  {
+    "Manufacturer": "DeltaMcKenzie",
+    "Type": "Varmint",
+    "Name": "Woodchuck",
+    "Image": "woodchuck.jpg"
   }
 ];
 
