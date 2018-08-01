@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns   = "http://www.w3.org/ns/widgets"
+    xmlns:gap   = "http://phonegap.com/ns/1.0"
+    id          = "com.phonegap.3dreference"
+    versionCode = "10"
+    version     = "1.0.0" >
+
+<!-- versionCode is optional and Android only -->
+
+ 
+
+  <name>3D Reference</name>
+  <description>Target reference for 3D archery</description>
+  <author email="a.williams1969@gmail.com" href="">Andy Williams</author>
+
+</widget>
