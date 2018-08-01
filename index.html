@@ -16,6 +16,16 @@
 		<link rel="stylesheet" href="assets/css/my-app.css">
 	</head>
 	<body>
+		<script type="text/template7" id="man-template">
+			{{#each manufacturers}}
+			<div class="col-33"><a href="#" class="button pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
+			{{/each}}
+		</script>
+		<script type="text/template7" id="type-template">
+			{{#each types}}
+			<div class="col-33"><a href="#" class="button pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
+			{{/each}}
+		</script>
 		<!-- App root element -->
 		<div id="app">
 			<!-- Statusbar overlay -->
@@ -37,16 +47,19 @@
 				<div class="toolbar">
 					<div class="toolbar-inner">
 						<!-- Toolbar links -->
-						<a href="#" class="link">Link 1</a>
-						<a href="#" class="link">Link 2</a>
+						<a href="#" class="link">About</a>
+						
 					</div>
 				</div>
 
 				<!-- Scrollable page content -->
 				<div class="page-content">	
 					<div class="block-title">Targets By Manufacturer</div>
-					<div class="block row">
-						<div class="col-33"><a href="#" class="button pb-popup-rinehart">Rinehart</a></div>
+						<div class="block row" id="man-links">
+							
+						</div>
+					<div class="block-title">Targets By Type</div>
+					<div class="block row" id="type-links">
 					</div>
 				</div>
 			</div>
@@ -54,7 +67,10 @@
     </div>
     <!-- Path to Framework7 Library JS-->
     <script type="text/javascript" src="assets/js/framework7.min.js"></script>
+
     <!-- Path to your app js-->
     <script type="text/javascript" src="assets/js/my-app.js"></script>
+	
+	
   </body>
 </html>

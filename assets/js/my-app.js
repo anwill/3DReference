@@ -232,15 +232,68 @@ targets = [
 ];
 
 /* Groups of Targets */
-rinehart_targets = [];
+manufacturer = [];
+type = [];
+manufacturers = [];
+types = [];
 
 targets.forEach(function(t) {
 	target = {
 		url: 'targets/' + t.Manufacturer + '/' + t.Image,
-		caption: t.Name
+		caption: t.Name,
+		type: t.Type,
+		manufacturer: t.Manufacturer
 	};
-	rinehart_targets.push(target);
+	if (typeof manufacturer[t.Manufacturer] === 'undefined') {
+		manufacturer[t.Manufacturer] = [];
+	}
+	manufacturer[t.Manufacturer].push(target);
+	
+	if (typeof type[t.Type] === 'undefined') {
+		type[t.Type] = [];
+	}
+	type[t.Type].push(target);
+	
+	// add to manufacturer list
+	existing_manu = manufacturers.find(function(e) {
+		if (e.name == t.Manufacturer) {
+			return true;
+		} else {
+			return false;
+		}
+	}); 
+	if (! existing_manu) {
+		manufacturers.push({"name": t.Manufacturer});
+	}
+	
+	// add to types list
+	existing_type = types.find(function(e) {
+		if (e.name == t.Type) {
+			return true;
+		} else {
+			return false;
+		}
+	}); 
+	if (! existing_type) {
+		types.push({"name": t.Type});
+	}
 });
+
+
+var $$ = Dom7;
+
+/*=== TEMPLATES ===*/
+var manTemplate = $$('#man-template').html();
+var compiledManTemplate = Template7.compile(manTemplate);
+
+var html = compiledManTemplate({ manufacturers: manufacturers });
+$$('#man-links').html(html);
+
+var typeTemplate = $$('#type-template').html();
+var compiledTypeTemplate = Template7.compile(typeTemplate);
+
+var html = compiledTypeTemplate({ types: types });
+$$('#type-links').html(html);
 
 
 var app = new Framework7({
@@ -261,23 +314,36 @@ var app = new Framework7({
       url: 'about.html',
     },
   ],
+  
   // ... other parameters
 });
 
 var mainView = app.views.create('.view-main');
 
-var $$ = Dom7;
-
-
-
-/*=== Popup ===*/
-var myPhotoBrowserPopupRinehart = app.photoBrowser.create({
-    photos: rinehart_targets,
-    type: 'popup'
+/*=== Galleries ===*/
+var pb = [];
+targets.forEach(function(t) {
+	//console.log('Creating: ' + t);
+	pb[t.Manufacturer] = app.photoBrowser.create({
+		photos: manufacturer[t.Manufacturer],
+		type: 'popup'
+	});
+	pb[t.Type] = app.photoBrowser.create({
+		photos: type[t.Type],
+		type: 'popup'
+	});
 });
-$$('.pb-popup-rinehart').on('click', function () {
-    myPhotoBrowserPopupRinehart.open();
+
+
+$$('.pb-popup-manufacturer').on('click', function (e) {
+	//console.log(e.target.id);
+	pb[e.target.id].open();
+});
+
+$$('.pb-popup-type').on('click', function (e) {
+	//console.log(e.target.id);
+	pb[e.target.id].open();
 });
 
 
-
+    
