@@ -15,15 +15,15 @@
 		<!-- Path to your custom app styles-->
 		<link rel="stylesheet" href="assets/css/my-app.css">
 	</head>
-	<body>
+	<body class="color-theme-orange">
 		<script type="text/template7" id="man-template">
 			{{#each manufacturers}}
-			<div class="col-33"><a href="#" class="button pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
+			<div class="col-50"><a href="#" class="col button button-raised pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
 			{{/each}}
 		</script>
 		<script type="text/template7" id="type-template">
 			{{#each types}}
-			<div class="col-33"><a href="#" class="button pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
+			<div class="col-33"><a href="#" class="col button button-raised pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
 			{{/each}}
 		</script>
 		<script type="text/template7" id="all-template">
@@ -63,7 +63,9 @@
 						<div class="toolbar">
 							<div class="toolbar-inner">
 								<!-- Toolbar links -->
-								<a href="#view-search"  class="button tab-link">Search</a>
+								<a href="#view-search"  class="button tab-link">
+									<i class="f7-icons">search</i>
+								</a>
 								
 							</div>
 						</div>
@@ -82,7 +84,7 @@
 				</div>
 				
 								
-				<div id='view-search' class="view tab view-search">
+				<div id='view-search' class="view tab view-search ">
 					
 					<!-- Top Navbar -->
 					<div class="navbar">
@@ -95,7 +97,9 @@
 					<div class="toolbar">
 						<div class="toolbar-inner">
 							<!-- Toolbar links -->
-							<a href="#view-main" class="button tab-link">Home</a>
+							<a href="#view-main" class="button tab-link">
+								<i class="f7-icons">home</i>
+							</a>
 							
 						</div>
 					</div>
