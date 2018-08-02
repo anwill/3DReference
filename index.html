@@ -39,8 +39,13 @@
 			{{/each}}
 			</ul>
 		</script>
+		<script type="text/template7" id="count-template">
+			{{ target_count }} Targets
+		</script>
 		<!-- App root element -->
 		<div id="app">
+			<div class="statusbar"></div>
+		
 			<!-- view inside of panel -->
 			<div class="panel panel-left panel-cover">
 				<div class="view panel-view"> ... </div>
@@ -56,6 +61,7 @@
 						<div class="navbar">
 							<div class="navbar-inner">
 								<div class="title">3D Target Reference</div>
+								<div class="right" id="target-count" style="padding-right: 4px;"></div>
 							</div>
 						</div>
 		

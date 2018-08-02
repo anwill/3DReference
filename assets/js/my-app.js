@@ -28,12 +28,14 @@ type = [];
 manufacturers = [];
 types = [];
 all = [];
+total_targets = 0;
 
 var $$ = Dom7;
 
 /* Load All the targets */
 
 targets.forEach(function(t) {
+	total_targets = total_targets + 1;
 	target = {
 		url: 'targets/' + t.Manufacturer + '/' + t.Image,
 		caption: t.Name,
@@ -95,10 +97,15 @@ $$('#type-links').html(html);
 var allTemplate = $$('#all-template').html();
 var compiledAllTemplate = Template7.compile(allTemplate);
 
-var html = compiledAllTemplate({ all: all });
+all_sorted = all.sort(function(a,b) {return (a.caption > b.caption) ? 1 : ((b.caption > a.caption) ? -1 : 0);} );
+var html = compiledAllTemplate({ all: all_sorted });
 $$('#all-links').html(html);
 
+var countTemplate = $$('#count-template').html();
+var compiledCountTemplate = Template7.compile(countTemplate);
 
+var html = compiledCountTemplate({ 'target_count': total_targets });
+$$('#target-count').html(html);
 
 /*=== Galleries ===*/
 var pb = [];
@@ -119,8 +126,6 @@ targets.forEach(function(t) {
 	});
 	
 });
-
-console.log(individual);
 
 $$('.pb-popup-manufacturer').on('click', function (e) {
 	//console.log(e.target.id);

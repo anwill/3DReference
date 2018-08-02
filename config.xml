@@ -9,5 +9,5 @@
   <description>Target reference for 3D archery</description>
   <author email="a.williams1969@gmail.com" href="">Andy Williams</author>
   <icon src="assets/icon.png" density="xxhdpi" />
- 
+  <splash src="assets/logos/splash.png" />
 </widget>
