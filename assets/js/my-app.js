@@ -7,25 +7,18 @@ var app = new Framework7({
   // App root element
   root: '#app',
   // App Name
-  name: 'My App',
+  name: '3D Reference',
   // App id
   id: 'com.myapp.test',
   // Enable swipe panel
   panel: {
     swipe: 'left',
   },
-  // Add default routes
-  routes: [
-    {
-      path: '/about/',
-      url: 'about.html',
-    },
-  ],
   
-  // ... other parameters
 });
 
 var mainView = app.views.create('.view-main');
+var searchView = app.views.create('.view-search');
 
 
 
@@ -34,7 +27,7 @@ manufacturer = [];
 type = [];
 manufacturers = [];
 types = [];
-
+all = [];
 
 var $$ = Dom7;
 
@@ -47,6 +40,7 @@ targets.forEach(function(t) {
 		type: t.Type,
 		manufacturer: t.Manufacturer
 	};
+	all.push(target);
 	if (typeof manufacturer[t.Manufacturer] === 'undefined') {
 		manufacturer[t.Manufacturer] = [];
 	}
@@ -98,8 +92,17 @@ var compiledTypeTemplate = Template7.compile(typeTemplate);
 var html = compiledTypeTemplate({ types: types });
 $$('#type-links').html(html);
 
+var allTemplate = $$('#all-template').html();
+var compiledAllTemplate = Template7.compile(allTemplate);
+
+var html = compiledAllTemplate({ all: all });
+$$('#all-links').html(html);
+
+
+
 /*=== Galleries ===*/
 var pb = [];
+var individual = [];
 targets.forEach(function(t) {
 	//console.log('Creating: ' + t);
 	pb[t.Manufacturer] = app.photoBrowser.create({
@@ -110,8 +113,14 @@ targets.forEach(function(t) {
 		photos: type[t.Type],
 		type: 'popup'
 	});
+	individual[t.Name] = app.photoBrowser.create({
+		photos: ['targets/' + t.Manufacturer + '/' + t.Image],
+		type: 'popup'
+	});
+	
 });
 
+console.log(individual);
 
 $$('.pb-popup-manufacturer').on('click', function (e) {
 	//console.log(e.target.id);
@@ -123,8 +132,24 @@ $$('.pb-popup-type').on('click', function (e) {
 	pb[e.target.id].open();
 });
 
+$$('.pb-popup-individual').on('click', function (e) {
+	console.log(e.target.id);
+	individual[e.target.id].open();
+});
 
-
+/*=== Search ===*/
+search_results = [];
+var searchBar = app.searchbar.create({
+	el: '.searchbar',
+    searchContainer: '.list',
+	searchIn: '.item-title',
+	on: {
+		search(sb, query, previousQuery) {
+			console.log(query, previousQuery);
+		}
+	}
+    
+});
 
 
 
