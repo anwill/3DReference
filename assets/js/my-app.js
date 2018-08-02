@@ -40,7 +40,8 @@ targets.forEach(function(t) {
 		url: 'targets/' + t.Manufacturer + '/' + t.Image,
 		caption: t.Name,
 		type: t.Type,
-		manufacturer: t.Manufacturer
+		manufacturer: t.Manufacturer,
+		image: t.Image
 	};
 	all.push(target);
 	if (typeof manufacturer[t.Manufacturer] === 'undefined') {
@@ -120,7 +121,7 @@ targets.forEach(function(t) {
 		photos: type[t.Type],
 		type: 'popup'
 	});
-	individual[t.Name] = app.photoBrowser.create({
+	individual[t.Manufacturer + "-" + t.Image] = app.photoBrowser.create({
 		photos: ['targets/' + t.Manufacturer + '/' + t.Image],
 		type: 'popup'
 	});
