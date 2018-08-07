@@ -18,9 +18,9 @@ Rinehart,Deer,Feeding Deer,Deer-FeedingDoe.png
 Rinehart,Deer,Fighting Rubbing Deer,Deer-FightingRubbingBuck.png
 Rinehart,Deer,Giant Mule Deer,Deer-GiantMuleDeer.png
 Rinehart,Deer,Spike Buck,Deer-SpikeBuck.png
-Rinehart,Exotic,Baboon,Exotic-Baboon.png
-Rinehart,Exotic,Green Cobra,Exotic-GreenCobra.png
-Rinehart,Exotic,Green Frog,Exotic-GreenFrog.png
+Rinehart,Predator,Baboon,Exotic-Baboon.png
+Rinehart,Reptile,Green Cobra,Exotic-GreenCobra.png
+Rinehart,Reptile,Green Frog,Exotic-GreenFrog.png
 Rinehart,Exotic,Hadrosaur,Exotic-Hadrosaur.png
 Rinehart,Exotic,Stegosaurus,Exotic-Stegosaurus.png
 Rinehart,Exotic,Velociraptor,Exotic-Velociraptor.png
@@ -226,7 +226,7 @@ Eleven,Exotic,Turtle,turtle.jpg
 Eleven,Boar,Wild Boar Medium,wild-boar-medium.jpg
 Imago,Varmint,aardvak,aardvak.jpg
 Imago,Varmint,alert marten ,alert-marten-angle-1.jpg
-Imago,Exotic,Baboon ,baboon_2.jpg
+Imago,Predator,Baboon ,baboon_2.jpg
 Imago,Goat,Barbary Goat,barbary-goat.jpg
 Imago,Deer,Big Deer,big-dear.jpg
 Imago,Goat,Blesbok ,blesbok_1.jpg
@@ -295,7 +295,7 @@ Leitold,Bird,Flying Duck,flying-duck.jpg
 Leitold,Bird,Flying Owl,flying-owl.jpg
 Leitold,Exotic,Garden Gnome,garden-gnome.jpg
 Leitold,Bird,Golden Eagle,golden-eagle.jpg
-Leitold,Exotic,Gorilla,gorilla.jpg
+Leitold,Predator,Gorilla,gorilla.jpg
 Leitold,Bear,Grizzly Bear With Prey,grizzly-bear-with-prey.jpg
 Leitold,Varmint,Hare On Hind Legs,hare-on-hind-legs.jpg
 Leitold,Bird,Heron,heron.jpg
@@ -421,4 +421,75 @@ Rinehart,Big Game,Standing Elk,Standing-Elk.jpg
 Rinehart,Reptile,Tree Boa Large,tree-boa-large.png
 Rinehart,Predator,White Wolf,white-wolf.jpg
 Rinehart,Boar,Woodland Boar,woodland-boar.jpg
-Rinehart,Deer,Woodland Buck,Woodland-Buck.png
+Rinehart,Deer,Woodland Buck,Woodland-Buck.pngFranzbogen
+Franzbogen,Predator,Wolf standing,Wolf-standing.png
+Franzbogen,Deer,Red Deer,Red-Deer.png
+Franzbogen,Deer,Fallow Deer lying,Fallow-Deer-lying.png
+Franzbogen,Deer,Fallow Deer standing,Fallow-Deer-standing.png
+Franzbogen,Deer,Deer standing,Deer-standing.png
+Franzbogen,Deer,Deer lying,Deer-lying.png
+Franzbogen,Goat,Ibex standing,Ibex-standing.png
+Franzbogen,Bear,Black Bear standing,Black-Bear-standing.png
+Franzbogen,Bear,Bear sitting,Baer-sitting.png
+Franzbogen,Predator,Black Wolf howling,Black-Wolf-howling.png
+Franzbogen,Boar,Wild Sow,Wild-Sow.png
+Franzbogen,Turkey,Turkey cock,Turkey-cock.png
+Franzbogen,Boar,Boar,Boar.png
+Franzbogen,Goat,Billy Goat,Billy-Goat.png
+Franzbogen,Bear,Black Bear,Black-Bear.png
+Franzbogen,Predator,Wolverine,Wolverine.png
+Franzbogen,Big Cat,Cheetah-hunting leopard,Cheetah-hunting-leopard.png
+Franzbogen,Big Cat,Panther black,Panther-black.png
+Franzbogen,Predator,Black wolf kneeing,Blackwolf-kneeing.png
+Franzbogen,Varmint,Badger going,Badger-going.png
+Franzbogen,Varmint,Beaver,Biber-groß.png
+Franzbogen,Varmint,Big hare,Big-hare.png
+Franzbogen,Varmint,Marmot standing,Marmot-standing.png
+Franzbogen,Deer,Roe Deer,Roe-Deer.png
+Franzbogen,Predator,Wolf sitting,Wolf-sitting.png
+Franzbogen,Predator,Coyote,Coyote.png
+Franzbogen,Boar,Javelina,Javelin.png
+Franzbogen,Bird,Eagle Owl,Eagle-Owl.png
+Franzbogen,Bird,gray goose eating,gray-goose-eating.png
+Franzbogen,Boar,Boar lying,Boar-lying.png
+Franzbogen,Reptile,Alligator,Alligator.png
+Franzbogen,Big Cat,Panther - standing,Panther---standing.png
+Franzbogen,Varmint,Chipmunk on Block,Chipmunk-on-Block.png
+Franzbogen,Varmint,chipmunk,chipmunk.png
+Franzbogen,Bird,Raven,Target-Raven.png
+Franzbogen,Varmint,Hare,Target-Hare.png
+Franzbogen,Varmint,Hare sitting,Hare-sitting.png
+Franzbogen,Varmint,Hare lying,Hare-lying.png
+Franzbogen,Varmint,Beaver standing,Beaver-standing.png
+Franzbogen,Bird,Raven flying,Raven-flying.png
+Franzbogen,Reptile,Crocodile small,Crocodile-small.png
+Franzbogen,Bird,Common Raven,Common-Raven.png
+Franzbogen,Bird,Goose flying,Goose-flying.png
+Franzbogen,Bird,Hawk flying,Hawk-flying.png
+Franzbogen,Predator,Fox small,Fox-small.png
+Franzbogen,Bird,Minerva Owl little & Backstop,Minerva-Owl-little-&-Backstop.png
+Franzbogen,Bird,Raven & Backstop,Raven-&-Backstop.png
+Franzbogen,Varmint,Squirrel & Backstop,Squirrel-&-Backstop.png
+Franzbogen,Bird,Hawk,Hawk.png
+Franzbogen,Boar,Wild Boar Piglet,Wild-Boar-Piglet.png
+Franzbogen,Bird,Minerva Owl little,Minerva-Owl-little.png
+Franzbogen,Bird,Raven,Raven.png
+Franzbogen,Varmint,Squirrel,Squirrel.png
+Franzbogen,Varmint,Hedgehog,Hedgehog.png
+Franzbogen,Boar,Wild Boar Piglet lying,Wild-Boar-Piglet-lying.png
+Franzbogen,Bird,Tawny Owl screech,Tawny-Owl-screech.png
+Franzbogen,Reptile,Lizard,Goanna.png
+Franzbogen,Deer,Roe Deer,Roe-Deer.png
+Franzbogen,Turkey,Turkey Hen standing,Turkey-Hen-standing.png
+Franzbogen,Varmint,Badger standing,Badger-standing.png
+Franzbogen,Deer,Roe Deer lying,Roe-Deer-lying.png
+Franzbogen,Exotic,Shield,shild.png
+Franzbogen,Exotic,Troll dog,Trolldog.png
+Franzbogen,Exotic,Killer mushroom,Killermashroom.png
+Franzbogen,Exotic,Fruit of the Sea,Fruit-of-the-See.png
+Franzbogen,Exotic,Dragon,Dragon.png
+Franzbogen,Exotic,Moorulm,Moorulm.png
+Franzbogen,Exotic,The Egg,The-Egg.png
+Franzbogen,Exotic,Dragon on egg,Dragon-on-egg.png
+Franzbogen,Exotic,Gnome,Gnom.png
+Franzbogen,Exotic,Flying dragon,Flying-dragon.png
