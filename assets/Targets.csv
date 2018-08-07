@@ -29,8 +29,8 @@ Rinehart,Predator,Black Panther,Predator-BlackPanther.png
 Rinehart,Predator,Coyote,Predator-Coyote.png
 Rinehart,Predator,Snarling Wolf,Predator-SnarlingWolf.png
 Rinehart,Predator,Wolverine,Predator-Wolverine.png
-Rinehart,Sheep,Catalina Goat,Sheep-CatalinaGoat.png
-Rinehart,Sheep,Stone Sheep,Sheep-StoneSheep.png
+Rinehart,Goat,Catalina Goat,Sheep-CatalinaGoat.png
+Rinehart,Goat,Stone Sheep,Sheep-StoneSheep.png
 Rinehart,Turkey,Gobbler,Turkey-Gobbler.png
 Rinehart,Turkey,Strutting Turkey,Turkey-StruttingTurkey.png
 Rinehart,Turkey,Tom Turkey,Turkey-TomTurkey.png
@@ -48,7 +48,7 @@ DeltaMcKenzie,Deer,Antelope ,antelope_1.jpg
 DeltaMcKenzie,Varmint,Armadillo,armadillo.jpg
 DeltaMcKenzie,Varmint,Beaver,beaver.jpg
 DeltaMcKenzie,Deer,Bedded Deer,bedded-deer.jpg
-DeltaMcKenzie,Sheep,Bighorn Sheep ,bighorn-sheep_2.jpg
+DeltaMcKenzie,Goat,Bighorn Sheep ,bighorn-sheep_2.jpg
 DeltaMcKenzie,Big Game,Bison,bison.jpg
 DeltaMcKenzie,Deer,Black Bock,black-bock.jpg
 DeltaMcKenzie,Deer,Blesbock,blesbock.jpg
@@ -375,3 +375,50 @@ Leitold,Big Cat,White Tiger,white-tiger.jpg
 Leitold,Predator,Wolverine,wolverine.jpg
 Leitold,Goat,Young Chamois,young-chamois.jpg
 Leitold,Boar,Young Wild Boar,young-wild-boar.jpg
+Rinehart,Turkey,Alert Turkey,Alert-Turkey.jpg
+Rinehart,Reptile,Alligator,alligator.jpg
+Rinehart,Varmint,Badger,Badger1.jpg
+Rinehart,Exotic,Bat Large,bat-2017-large.png
+Rinehart,Deer,Bedded Buck,bedded-buck.jpg
+Rinehart,Goat,Bedded Dahl Sheep,Bedded-Dahl-sheep.jpg
+Rinehart,Big Game,Bedded Elk,Bedded-Elk.jpg
+Rinehart,Exotic,Black Cobra,black-cobra.png
+Rinehart,Exotic,Black Widow Large,black-widow-large.png
+Rinehart,Deer,Booner Buck,Booner-Buck.png
+Rinehart,Deer,Booner Mule Deer,Booner-Mule-Deer.jpg
+Rinehart,Deer,Broadhead Buck,broadhead-buck.png
+Rinehart,Deer,Browsing Buck,Browsing-Buck.png
+Rinehart,Big Game,Buffalo,buffalo.jpg
+Rinehart,Big Game,Caribou,caribou.jpg
+Rinehart,Goat,Corsican Ram,Corsican-Ram.jpg
+Rinehart,Big Cat,Cougar,cougar1.jpg
+Rinehart,Fish,Gar,gar.jpg
+Rinehart,Goat,Gazelle,Gazelle.jpg
+Rinehart,Turkey,Gobbler,Gobbler.jpg
+Rinehart,Predator,Grey Wolf,grey-wolf.png
+Rinehart,Bird,Grouse,Grouse.jpg
+Rinehart,Boar,Hogzilla,hogzilla.jpg
+Rinehart,Bear,Honey Bear,honey-bear.png
+Rinehart,Exotic,Jackalope,Jackalope.jpg
+Rinehart,Big Cat,Leopard With Rock,leopard-with-rock.jpg
+Rinehart,Big Cat,Lion Large,lion-large.png
+Rinehart,Goat,Mountain Goat,mountain-goat.jpg
+Rinehart,Big Cat,Mountain Lion With Rock,mountain-lion-with-rock.jpg
+Rinehart,Bird,Pheasant Large,pheasant-large.png
+Rinehart,Deer,Pronghorn,Pronghorn.jpg
+Rinehart,Varmint,Rabbit,rabbit.jpg
+Rinehart,Bird,Raven,Raven.png
+Rinehart,Predator,Red Fox,Red-Fox1.jpg
+Rinehart,Big Game,Red Stag Large,red-stag-large.png
+Rinehart,Exotic,Sasquatch,Sasquatch.jpg
+Rinehart,Varmint,Skunk Large,skunk-large.png
+Rinehart,Bear,Small Black Bear,small-black-bear.jpg
+Rinehart,Bear,Small Brown Bear,small-brown-bear.jpg
+Rinehart,Bear,Small White Bear,small-white-bear.jpg
+Rinehart,Varmint,Squirrel Large,Squirrel-large.png
+Rinehart,Goat,Standing Dahl Sheep,standing-dahl-sheep.jpg
+Rinehart,Big Game,Standing Elk,Standing-Elk.jpg
+Rinehart,Reptile,Tree Boa Large,tree-boa-large.png
+Rinehart,Predator,White Wolf,white-wolf.jpg
+Rinehart,Boar,Woodland Boar,woodland-boar.jpg
+Rinehart,Deer,Woodland Buck,Woodland-Buck.png
