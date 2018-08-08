@@ -39,9 +39,9 @@
 }
 
 .transparentbar {
-	background: rgba(247, 247, 248, 0.8) !important; /* 0.55 = opacity */
+	background: rgba(225, 225, 224, 0.8) !important; 
 }
 
 .title-color {
-	color: orange !important;
+	color: rgba(255, 155, 0, 1) !important;
 }

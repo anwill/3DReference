@@ -18,21 +18,21 @@
 	<body class="color-theme-orange">
 		<script type="text/template7" id="man-template">
 			{{#each manufacturers}}
-			<div class="col-50"><a href="#" class="button button-raised button-fill-md color-gray pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
+			<div class="col-50" style="padding-bottom: 4px;"><a href="#" class="button button-raised button-fill-md color-gray pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
 			{{/each}}
 		</script>
 		<script type="text/template7" id="type-template">
 			{{#each types}}
-			<div class="col-33"><a href="#" class="button button-raised button-fill-md color-gray pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
+			<div class="col-33" style="padding-bottom: 4px;"><a href="#" class="button button-raised button-fill-md color-gray pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
 			{{/each}}
 		</script>
 		<script type="text/template7" id="all-template">
 			<ul>
 			{{#each all}}
-				 <li class="item-content">
+				 <li class="item-content" style="background-color: rgba(225,225,225,0.9);">
 					<div class="item-inner">
 						<div class="item-title">
-							<a href="#" class="button button-raised button-fill-md color-gray pb-popup-individual" id='{{ manufacturer }}-{{ image }}'>{{ caption }}</a>
+							<a href="#" class="pb-popup-individual" id='{{ manufacturer }}-{{ image }}'>{{ caption }}</a>
 						</div>
 					</div>
 				 </li>
