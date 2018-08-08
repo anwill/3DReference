@@ -38,7 +38,7 @@ targets.forEach(function(t) {
 	total_targets = total_targets + 1;
 	target = {
 		url: 'targets/' + t.Manufacturer + '/' + t.Image,
-		caption: t.Name,
+		caption: t.Name + ' - ' + t.Manufacturer,
 		type: t.Type,
 		manufacturer: t.Manufacturer,
 		image: t.Image
@@ -122,7 +122,12 @@ targets.forEach(function(t) {
 		type: 'popup'
 	});
 	individual[t.Manufacturer + "-" + t.Image] = app.photoBrowser.create({
-		photos: ['targets/' + t.Manufacturer + '/' + t.Image],
+		photos: [
+			{
+				url: 'targets/' + t.Manufacturer + '/' + t.Image,
+				caption: t.Name + ' - ' + t.Manufacturer
+			}
+		],
 		type: 'popup'
 	});
 	
