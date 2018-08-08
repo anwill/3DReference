@@ -30,3 +30,18 @@
   -moz-font-feature-settings: "liga";
   font-feature-settings: "liga";
 }
+
+.backgroundimage {
+	background: url(http://upload.wikimedia.org/wikipedia/commons/0/0b/DoubtfulSound-Fjord.jpg) !important;
+	background-size: cover;
+	height: 100% !important; /* To fill everything */
+	width: 100% !important; /* To fill everything */
+}
+
+.transparentbar {
+	background: rgba(247, 247, 248, 0.8) !important; /* 0.55 = opacity */
+}
+
+.title-color {
+	color: orange !important;
+}

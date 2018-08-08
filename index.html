@@ -10,20 +10,20 @@
 		<!-- Your app title -->
 		<title>3D Target Reference</title>
 		<!-- Path to Framework7 Library CSS -->
-		<link rel="stylesheet" href="assets/css/framework7.min.css">
 		
+		<link rel="stylesheet" href="assets/css/framework7.md.min.css">
 		<!-- Path to your custom app styles-->
 		<link rel="stylesheet" href="assets/css/my-app.css">
 	</head>
 	<body class="color-theme-orange">
 		<script type="text/template7" id="man-template">
 			{{#each manufacturers}}
-			<div class="col-50"><a href="#" class="col button button-raised pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
+			<div class="col-50"><a href="#" class="button button-raised button-fill-md color-gray pb-popup-manufacturer" id='{{ name }}'>{{ name }}</a></div>
 			{{/each}}
 		</script>
 		<script type="text/template7" id="type-template">
 			{{#each types}}
-			<div class="col-33"><a href="#" class="col button button-raised pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
+			<div class="col-33"><a href="#" class="button button-raised button-fill-md color-gray pb-popup-type" id='{{ name }}'>{{ name }}</a></div>
 			{{/each}}
 		</script>
 		<script type="text/template7" id="all-template">
@@ -32,7 +32,7 @@
 				 <li class="item-content">
 					<div class="item-inner">
 						<div class="item-title">
-							<a href="#" class="button pb-popup-individual" id='{{ manufacturer }}-{{ image }}'>{{ caption }}</a>
+							<a href="#" class="button button-raised button-fill-md color-gray pb-popup-individual" id='{{ manufacturer }}-{{ image }}'>{{ caption }}</a>
 						</div>
 					</div>
 				 </li>
@@ -55,22 +55,22 @@
 				<!-- Your main view, should have "view-main" class -->
 				<div id='view-main' class="view view-main tab tab-active">
 					<!-- Initial Page, "data-name" contains page name -->
-					<div data-name="home" class="page">
+					<div data-name="home" class="page backgroundimage">
 	
 						<!-- Top Navbar -->
-						<div class="navbar">
+						<div class="navbar transparentbar">
 							<div class="navbar-inner">
-								<div class="title">3D Target Reference</div>
-								<div class="right" id="target-count" style="padding-right: 4px;"></div>
+								<div class="title title-color">3D Target Reference</div>
+								<div class="right title-color" id="target-count" style="padding-right: 20px;"></div>
 							</div>
 						</div>
 		
 						<!-- Toolbar -->
-						<div class="toolbar">
+						<div class="toolbar transparentbar">
 							<div class="toolbar-inner">
 								<!-- Toolbar links -->
 								<a href="#view-search"  class="button tab-link">
-									<i class="f7-icons">search</i>
+									<i class="f7-icons title-color">search</i>
 								</a>
 								
 							</div>
@@ -91,43 +91,43 @@
 				
 								
 				<div id='view-search' class="view tab view-search ">
-					
-					<!-- Top Navbar -->
-					<div class="navbar">
-						<div class="navbar-inner">
-							<div class="title">Search</div>
+					<div data-name="search" class="page backgroundimage">
+						<!-- Top Navbar -->
+						<div class="navbar transparentbar">
+							<div class="navbar-inner">
+								<div class="title title-color">Search</div>
+							</div>
 						</div>
-					</div>
-	
-					<!-- Toolbar -->
-					<div class="toolbar">
-						<div class="toolbar-inner">
-							<!-- Toolbar links -->
-							<a href="#view-main" class="button tab-link">
-								<i class="f7-icons">home</i>
-							</a>
-							<!-- Search bar -->
-							<div class="searchbar-backdrop"></div>
-							<form class="searchbar">
-							  <div class="searchbar-inner">
-								<div class="searchbar-input-wrap">
-								  <input type="search" placeholder="Search">
-								  <i class="searchbar-icon"></i>
-								  <span class="input-clear-button"></span>
-								</div>
-								<span class="searchbar-disable-button">Cancel</span>
-							  </div>
-							</form>		
+		
+						<!-- Toolbar -->
+						<div class="toolbar transparentbar">
+							<div class="toolbar-inner">
+								<!-- Toolbar links -->
+								<a href="#view-main" class="button tab-link">
+									<i class="f7-icons title-color">home</i>
+								</a>
+								<!-- Search bar -->
+								<div class="searchbar-backdrop transparentbar"></div>
+								<form class="searchbar">
+								  <div class="searchbar-inner">
+									<div class="searchbar-input-wrap">
+									  <input type="search" placeholder="Search">
+									  <i class="searchbar-icon"></i>
+									  <span class="input-clear-button"></span>
+									</div>
+									<span class="searchbar-disable-button">Cancel</span>
+								  </div>
+								</form>		
+							</div>
 						</div>
-					</div>
-					
-					<!-- Scrollable page content -->
-					<div class="page-content">
 						
-						<div class="list searchbar-found" id="all-links">
+						<!-- Scrollable page content -->
+						<div class="page-content">
+							
+							<div class="list searchbar-found" id="all-links">
+							</div>
 						</div>
 					</div>
-					
 				</div>
 					
 			</div>
