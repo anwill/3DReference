@@ -39,9 +39,20 @@
 }
 
 .transparentbar {
-	background: rgba(225, 225, 224, 0.8) !important; 
+	background: rgba(225, 225, 224, 0.95) !important; 
 }
 
 .title-color {
 	color: rgba(255, 155, 0, 1) !important;
+}
+
+.list-bg {
+	background-color: rgba(225,225,225,0.9) !important;
+}
+
+.block-format {
+	color: rgb(0,0,0,1) !important;
+	font-size: larger !important;
+	font-weight: 800 !important;
+	padding-bottom: 4px !important;
 }
