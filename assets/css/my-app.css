@@ -32,7 +32,7 @@
 }
 
 .backgroundimage {
-	background: url(http://upload.wikimedia.org/wikipedia/commons/0/0b/DoubtfulSound-Fjord.jpg) !important;
+	background: url(../images/bright-daylight-environment-240040.jpg) !important;
 	background-size: cover;
 	height: 100% !important; /* To fill everything */
 	width: 100% !important; /* To fill everything */
